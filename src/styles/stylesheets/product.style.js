@@ -1,0 +1,221 @@
+import { StyleSheet } from 'react-native';
+import fonts from '../fonts';
+import colors from '../colors';
+
+export default StyleSheet.create({
+    container: {
+        // flex: 1,
+        // backgroundColor: colors.GREY4_COLOR,
+    },
+    // contentWrapper: {
+    //     flexDirection: 'column',
+    //     marginLeft: 20,
+    //     marginRight: 20,
+    // },
+
+    productSection: {
+        backgroundColor: colors.WHITE_COLOR,
+        marginBottom: 10,
+        paddingTop: 10,
+        paddingLeft: 20,
+        paddingRight: 20,
+    },
+    productListSection: {
+    },
+    devStatusWrapper: {
+        marginTop: -10,
+    },
+    devStatusTextWrapper: {
+        flexDirection: 'row',
+        padding: 20,
+    },
+    devStatusText: {
+        backgroundColor: colors.WHITE_COLOR,
+        paddingVertical: 4,
+        paddingHorizontal: 14,
+        borderRadius: 4,
+        color: colors.GREY4_COLOR,
+        marginHorizontal: 6,
+        fontFamily: 'OpenSans-Regular',
+        fontSize: fonts.FONT_SIZE_11,
+    },
+    productTopContainer: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        marginBottom: 10,
+        marginTop: 10,
+        marginHorizontal: -15,
+        marginLeft: -15,
+    },
+    productInfoContainer: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        marginBottom: 5,
+        marginTop: 5,
+        marginLeft: 10,
+    },
+    productImageContainer: {
+        marginRight: 15,
+        paddingLeft: 0,
+    },
+    // productImage: {
+    //     height: 35,
+    //     width: 35,
+    //     borderRadius: 35 / 2,
+    //     borderColor: colors.GREY_COLOR,
+    //     borderWidth: 0.5,
+    // },
+    productBorder: {
+        height: 75,
+        width: 320,
+        borderColor: colors.GREY5_COLOR,
+        borderWidth: 0.5,
+        marginBottom: 0,
+    },
+    productImage: {
+        height: 50,
+        width: 50,
+        borderRadius: 0,
+        borderColor: colors.GREY_COLOR,
+        borderWidth: 0.5,
+        marginTop: 5,
+    },
+    // productNameContainer: {
+    //     paddingTop: 0,
+    //     paddingRight: 0,
+    //     paddingBottom: 0,
+    //     paddingLeft: 0,
+    // },
+    productContainer: {
+        paddingTop: 10,
+        paddingRight: 0,
+        paddingBottom: 0,
+        paddingLeft: 0,
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'space-between',
+        marginHorizontal: 7,
+        marginLeft: 10,
+    },
+    productNameText: {
+        fontSize: fonts.FONT_SIZE_14,
+        color: colors.BLACK_COLOR,
+        fontFamily: 'OpenSans-SemiBold',
+    },
+    productPriceText: {
+        fontSize: fonts.FONT_SIZE_11,
+        color: colors.THEME_COLOR,
+        fontFamily: 'Montserrat-SemiBold',
+        marginLeft: 180,
+        marginTop: 5,
+    },
+    productType: {
+        fontSize: fonts.FONT_SIZE_11,
+        color: colors.GREY4_COLOR,
+        fontFamily: 'OpenSans-Regular',
+        marginLeft: 195,
+        marginTop: 5,
+    },
+    productTypeText: {
+        fontSize: fonts.FONT_SIZE_11,
+        color: colors.GREY4_COLOR,
+        fontFamily: 'OpenSans-Regular',
+        marginTop: -35,
+    },
+    productDateText: {
+        fontSize: fonts.FONT_SIZE_11,
+        color: colors.GREY4_COLOR,
+        fontFamily: 'OpenSans-Regular',
+        marginTop: 5,
+    },
+    productName: {
+        fontSize: fonts.FONT_SIZE_13,
+        color: colors.GREY2_COLOR,
+        fontFamily: 'OpenSans-Regular',
+        marginTop: -15,
+    },
+    productName1Text: {
+        fontSize: fonts.FONT_SIZE_13,
+        color: colors.GREY2_COLOR,
+        fontFamily: 'OpenSans-Regular',
+        marginTop: -15,
+        marginLeft: 20,
+    },
+    productName2Text: {
+        fontSize: fonts.FONT_SIZE_13,
+        color: colors.GREY2_COLOR,
+        fontFamily: 'OpenSans-Regular',
+        marginTop: -15,
+        marginLeft: 20,
+    },
+    productNumberText: {
+        fontSize: fonts.FONT_SIZE_16,
+        color: colors.BLACK_COLOR,
+        fontFamily: 'OpenSans-SemiBold',
+        marginLeft: -3,
+        marginTop: -20,
+    },
+    productNumber1Text: {
+        fontSize: fonts.FONT_SIZE_16,
+        color: colors.BLACK_COLOR,
+        fontFamily: 'OpenSans-SemiBold',
+        marginLeft: 90,
+        marginTop: -20,
+    },
+    productNumber2Text: {
+        fontSize: fonts.FONT_SIZE_16,
+        color: colors.BLACK_COLOR,
+        fontFamily: 'OpenSans-SemiBold',
+        marginLeft: 90,
+        marginTop: -20,
+    },
+
+    productListTitleContainer: {
+        marginTop: 10,
+        marginBottom: 5,
+    },
+    productListTitleText: {
+        fontSize: fonts.FONT_SIZE_14,
+        color: colors.GREY3_COLOR,
+        fontFamily: 'OpenSans-SemiBold',
+    },
+    productListSmallTitleText: {
+        fontSize: fonts.FONT_SIZE_10,
+        color: colors.GREY2_COLOR,
+        fontFamily: 'OpenSans-Regular',
+        marginTop: 5,
+    },
+    productListSmallText: {
+        fontSize: fonts.FONT_SIZE_10,
+        color: colors.THEME_COLOR,
+        fontFamily: 'OpenSans-Regular',
+        marginTop: 5,
+        paddingLeft: 250,
+        marginBottom: 10,
+    },
+    productListItemContainer: {
+        flexDirection: 'row',
+        alignItems: 'center',
+    },
+    productListWrapper: {
+        backgroundColor: colors.WHITE_COLOR,
+        marginBottom: 10,
+        paddingLeft: 20,
+        paddingRight: 20,
+        paddingBottom: 25,
+        paddingTop: 5,
+    },
+    productListItemIconContainer: {
+        paddingRight: 15,
+    },
+    productListItemTitleContainer: {
+        flex: 1,
+        flexDirection: 'row',
+        alignItems: 'center',
+        paddingTop: 15,
+        paddingBottom: 15,
+    },
+    productListItemTitleTextContainer: {
+        flex: 1,
+    },
+});
